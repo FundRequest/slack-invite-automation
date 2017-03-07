@@ -10,10 +10,13 @@ html
     #wrapper
       .main
         .header
-          h1
-          h2
         .content
-          .information
+          h1.
+           Come and share you thoughts and ideas!
+          h2.
+           Enter your email below to join FundRequest on Slack, everyone is welcome!
+         .information
+            test &nbsp;
             form(method="POST", action="/invite")#join-form.form
               input(type="email", name="email", placeholder="#{__('ENTER_EMAIL')}")#slack-email.field
               if tokenRequired
