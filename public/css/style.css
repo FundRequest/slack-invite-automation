@@ -97,9 +97,9 @@ width: 478px;
 }
 
 .field{
-border: solid 10px #dbdfe8;
+border: solid 5px #dbdfe8;
 transition: border 0.3s;
-width: 448px;
+width: 425px;
 font-style: italic;
 font-family: 'Lato', sans-serif;
 font-size: 16px;
@@ -109,7 +109,7 @@ margin-bottom: 15px;
 outline: none;
 }
 	.field:focus {
-	border: solid 10px #cdd3de;
+	border: solid 5px #cdd3de;
 	padding: 15px;
 	}
 @media only screen and (max-width: 480px)  {
